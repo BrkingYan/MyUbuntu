@@ -1,0 +1,8 @@
+1.show the port usage:
+  lsof -i:<port>
+2.kill the processes on selected port
+  kill -9 <PID>
+3.check all the serve port(established)
+  netstat -a
+4.check all the serve port(listen,established)
+  netstat -ap

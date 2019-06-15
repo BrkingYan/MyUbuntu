@@ -1,0 +1,20 @@
+framework:
+	root/src/main/java/com/yy/www/package/xxx.java
+	
+	root/src/test/java/testXX.java
+	
+	pom.xml
+
+all the commands run in the root dir
+
+1.mvn clean compile (after the .java files finished in /src/main/java)
+  form the architecture of project
+2.mvn clean test (after .java files finished in /src/test/java)
+  run JUnit Test
+3.mvn clean package
+  package the project code into a .jar file in target/ dir
+4.mvn clean install
+  add the jar into maven's jar repository
+
+5.mvn archetype:generate
+  form a default dir framework

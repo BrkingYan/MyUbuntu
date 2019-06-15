@@ -1,0 +1,8 @@
+1.if you want to compile a .java file with jar in another dir , use the below command to compile:
+
+javac -Djava.ext.dirs=<jar dir> <.java file name>
+
+2.and 
+java -Djava.ext.dirs=<jar dir> <.java file name> to run
+
+3.or place the jar into ~/.bashrc 's classpath
